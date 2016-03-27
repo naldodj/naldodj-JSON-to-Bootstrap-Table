@@ -24,6 +24,6 @@ search:true,
 tableClass:"table table-bordered table-hover"
 ```
 
-URL - Get Request to a URL which returns a JSON Object.
-Data - Optional - Can directly convert a passed JSON Data.
-Search - To Enable/Disable Search in the Table
+* URL - Get Request to a URL which returns a JSON Object.
+* Data - Optional - Can directly convert a passed JSON Data.
+* Search - To Enable/Disable Search in the Table
