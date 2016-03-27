@@ -16,7 +16,6 @@
 		this.globalConfig = {
 			url:"",
 			data:"",
-			size:10,
 			wrapper:"",
 			search:true,
 			tableClass:"table table-bordered table-hover"
