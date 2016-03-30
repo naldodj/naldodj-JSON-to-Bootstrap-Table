@@ -160,7 +160,7 @@
     	input.addEventListener("keyup", this.filter.bind(this, input), false);
     	this.searchWrapper.appendChild(input);
   	};
-
+  	
   	createTable.prototype.filter = function(inputElement) {
     	var filterText = inputElement.value.toLowerCase();
     	if (sessionStorage.tabledata) {
@@ -183,7 +183,7 @@
     		throw "No Data Available";
     	}
   	};
-
+  	
   	var changeTableBody = function(data) {
     	var tbody = document.createElement('tbody');
     	var trlen = data.length;
@@ -218,5 +218,6 @@
       			this.tableName.appendChild(tbody);
     		}
   		}
-		return createTable;
-	}));
+	return createTable;
+	
+}));
