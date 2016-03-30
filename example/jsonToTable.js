@@ -25,9 +25,9 @@
 
 (function(root, factory) {
 	if (typeof define === 'function' && define.amd) {
-    	define(['createTable'], factory);
+		define(['createTable'], factory);
   	} else {
-    	root.createTable = factory(root.createTable);
+  		root.createTable = factory(root.createTable);
   	}
 }(this, function() {
 	
@@ -39,7 +39,7 @@
  	
 	function createTable(options) {
 		if (window === this) {
-        	return new createTable(options);
+			return new createTable(options);
     	}
 
 		this.tableName = "";
