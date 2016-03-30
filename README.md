@@ -1,5 +1,5 @@
 # JSON to Bootstrap Table
-========================
+
 Convert JSON Data from URL/Data to Bootstrap table
 This light weight plugin uses Bootstrap CSS to convert a JSON data into a Bootstrap table.
 
