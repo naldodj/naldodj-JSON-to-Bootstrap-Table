@@ -123,8 +123,8 @@
       		}
     	}
     };
-
-  	var makeTable = function(data) {
+    
+    var makeTable = function(data) {
     	//debugger;
     	var tbody = document.createElement('tbody');
     	var trlen = data.length;
@@ -150,10 +150,10 @@
     	this.tableName.appendChild(thead);
     	this.tableName.appendChild(tbody);
   	};
-
+  	
   	var makeSearchBox = function() {
-    	var input = document.createElement('input');
-    	input.type = "text";
+  		var input = document.createElement('input');
+  		input.type = "text";
     	input.className = "form-control";
     	input.placeholder = "Search";
     	input.addEventListener("keydown", this.filter.bind(this, input), false);
